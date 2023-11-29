@@ -3,7 +3,7 @@ import DayName from "./DayName.jsx";
 
 export default function AllDaysName() {
   return (
-    <div className="flex flex-row justify-center items-center gap-10 p-4">
+    <div className="grid grid-cols-7 w-[22rem]">
       <DayName day={0} />
       <DayName day={1} />
       <DayName day={2} />

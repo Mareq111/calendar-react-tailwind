@@ -1,13 +1,15 @@
 import React from "react";
 
 export default function DayName(props) {
-  const day = ["mo", "tu", "we", "th", "fr", "sa", "su"];
+  const day = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
   const dayIndex = props.day;
   const dayName = day[dayIndex];
 
   return (
     <>
-      <h2 className="text-center text-m text-stone-100">{dayName}</h2>
+      <h2 className=" font-semibold text-center text-lg text-stratos-100">
+        {dayName}
+      </h2>
     </>
   );
 }
